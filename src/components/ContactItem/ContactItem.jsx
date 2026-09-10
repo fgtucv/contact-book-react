@@ -8,7 +8,6 @@ export class ContactItem extends Component {
             <li>
                 <h2>{surname} {name}</h2>
                 <span>{phone}</span>
-                {/* <button type="button"><Pencil/></button> */}
                 <button type="button" onClick={() => {this.props.deletContact(id)}}><Trash2/></button>
             </li>
         )
